@@ -7,7 +7,7 @@ module.exports = (_, argv) => ({
     publicPath:
       argv.mode === "development"
         ? "http://localhost:8080/"
-        : "http://header-microfrontend.apps.ocp4.pacosta.com/",
+        : "http://header-micro2.apps.ocp4.pacosta.com/",
   },
 
   resolve: {
